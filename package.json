@@ -1,0 +1,19 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "Terminal-Based Password Generator",
+  "exports": "./script.js",
+  "preferGlobal": true,
+  "bin": "./script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harrison Cutrone",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "clipboardy": "^3.0.0",
+    "commander": "^8.3.0"
+  },
+  "type": "module"
+}
